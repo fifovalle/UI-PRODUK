@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #0f0e17;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+img {
+    height: 90%;
+    width: 100%;
+    position: fixed;
+    bottom: 35px;
+    left: 1%;
+    border-radius: 50px;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+img {
+    cursor: pointer;
+}
+
+h1 {
+    transition: transform 2s;
+    font-size: 60px;
+    color: #fffffe;
+    font-family: "Big Shoulders Display", cursive;
+}
+
+.produk {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.kartu:hover>p {
+    opacity: 1;
+    transform: scale(1.5);
+}
+
+.kartu:hover>img {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+.kartu header {
+    position: absolute;
+    top: 120%;
+    left: 0%;
+    padding: 1px;
+    border-radius: 25px;
+    width: 450px;
+    height: 90px;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.kartu:hover>header {
+    opacity: 1;
+    width: 450px;
+    height: 90px;
+    transform: translateY(-120px);
+}
+
+.kartu {
+    transition: transform 0.7s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background: #a7a9be;
+    width: 450px;
+    height: 450px;
+}
+
+.kartu:hover {
+    transform: scale(1.08);
+}
