@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap");
 
 * {
@@ -27,9 +25,6 @@ img {
     border-radius: 50px;
     opacity: 0.9;
     transition: 0.5s;
-}
-
-img {
     cursor: pointer;
 }
 
